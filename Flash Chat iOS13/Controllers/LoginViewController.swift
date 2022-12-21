@@ -23,7 +23,7 @@ class LoginViewController: UIViewController {
                     print(e)
                 } else {
                     // Если нет ошибок после авторизации переходим в ChatVC
-                    self!.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    self!.performSegue(withIdentifier: K.loginSegue, sender: self)
                 }
             }
          
